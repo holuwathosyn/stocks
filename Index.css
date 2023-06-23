@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.gallery{
+    display: flex;
+  width: 100%;
+  
+    align-items: center;
+    justify-content: center;
+    
+}
+.fa{
+    color: orange;
+}
+.content{
+    width: 25%;
+    float: left;
+    text-align: center;
+    margin:30px;
+    padding: 20px;
+  box-shadow: 0 20px 20px 20px silver;
+    
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    color:crimson;
+}
+img{
+    width: 250px;
+    margin: 20px;
+    height: 200px;
+}
+.fa{
+    color: orange;
+}
+.buy-1{
+    color: black;
+    font-weight: bolder;
+    padding: 20px;
+    width: 190px;
+    margin: 5px;
+    border-radius: 5px 5px 5px;
+    border: none;
+    background-color: #1283a2;
+}
+
+.buy-2 {
+    color: black;
+    font-weight: bolder;
+    padding: 20px;
+    width: 190px;
+    margin: 5px;
+    border-radius: 5px 5px 5px;
+    border: none;
+    background-color: orange;
+}
+.buy-3 {
+    color: white;
+    font-weight: bolder;
+    padding: 20px;
+    width: 190px;
+    margin: 5px;
+    border-radius: 5px 5px 5px;
+    border: none;
+    background-color: black;
+}
+@media(max-width:1000px){
+    .content{
+      width: 45px;
+        
+    }
+}
+  @media(max-width:900px) {
+   .gallery{display: block;}
+    .content {
+        display: block;
+ width: 100%;
+            }
+}
